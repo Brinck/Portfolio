@@ -1,0 +1,86 @@
+<!--Document au format html5-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>CV Charles ROCHE</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+				<h1 id="Nom">Charles Rodrigue ROCHE</h1>
+		</header>
+
+		</br>
+
+		<aside>
+			<ul>
+				<li id="Titre">Menu</li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</aside>
+
+		</br>
+
+		<h2>Remplir le formulaire de contact</h2>
+
+		<form action="/formulaire-de-contact" method="post">
+			<div>
+       			<label for="nom">Nom :</label>
+        		<input type="text" id="nom" />
+    		</div>
+
+			<div>
+       			<label for="nom">Prénom :</label>
+        		<input type="text" id="prénom" />
+    		</div>
+
+    		<div>
+       			<label for="nom">Date de naissance :</label>
+       			<input type="date" id="date"/>
+    		</div>
+
+    		<div>
+      			<label for="s1">Homme</label>
+      			<input type="radio" name="s" id="s1" value="H">
+
+      			<label for="s2">Femme</label>
+      			<input type="radio" name="s" id="s2" value="F">
+      		</div>
+
+    		<div>
+       			<label for="pseudo">Choisir un pseudo* :</label>
+        		<input type="text" id="pseudo" />
+    		</div>
+
+    		<div>
+        		<label for="courriel">E-mail* :</label>
+        		<input type="email" id="courriel" />
+    		</div>
+
+    		<div>
+        		<label for="password">Mot de passe* :</label>
+        		<input type="password" class="password" />
+    		</div>
+
+    		<div>
+        		<label for="password">Confirmer mot de passe* :</label>
+        		<input type="password" class="password" />
+    		</div>
+
+    		<div>
+    			<label for="photo">Ajouter votre photo:</label>
+    			<input type="file" accept="image/*" />
+    		</div>
+
+    		<div>
+        		<label for="message">Exemple d'un contrat :</label>
+       			<textarea cols="20" rows="20" id="message"></textarea>
+    		</div>
+		</form>
+
+	</body>
+</html>
